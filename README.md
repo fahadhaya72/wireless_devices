@@ -1,5 +1,6 @@
 # wireless_devices
-Network and Bluetooth Scanner
+
+#Network and Bluetooth Scanner
 
 Overview
 
@@ -9,7 +10,7 @@ WiFi Devices: Detects all devices connected to the same WiFi network and attempt
 
 Bluetooth Devices: Scans for nearby Bluetooth devices using Bleak.
 
-Features
+#Features
 
 ✅ Retrieve your WiFi network's public IP.✅ Scan and list all connected WiFi devices (IP & MAC Address).✅ Attempt to retrieve each device's public IP address.✅ Scan for Bluetooth devices in range.✅ Works on Windows, Linux, and macOS.
 
@@ -23,12 +24,16 @@ Make sure you have Python 3.x installed. You can download it from python.org.
 
 Run the following command to install the required libraries:
 
+```
+sh
 pip install -r requirements.txt
-
+```
 Or install them manually:
 
+```
+sh
 pip install scapy bleak requests
-
+```
 Usage
 
 Run the script using:
@@ -37,6 +42,8 @@ python network_scanner.py
 
 Expected Output
 
+```
+sh
 Getting WiFi Public IP...
 Your WiFi Public IP: 192.168.X.X
 
@@ -49,7 +56,7 @@ Scanning Bluetooth Devices...
 Discovered Bluetooth Devices:
 Name: Headphones, MAC: XX:XX:XX:XX:XX:XX
 ...
-
+```
 Notes
 
 Administrator/root privileges may be required for network scanning.
