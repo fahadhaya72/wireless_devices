@@ -24,14 +24,12 @@ Make sure you have Python 3.x installed. You can download it from python.org.
 
 Run the following command to install the required libraries:
 
-```
-sh
+```sh
 pip install -r requirements.txt
 ```
 Or install them manually:
 
-```
-sh
+```sh
 pip install scapy bleak requests
 ```
 Usage
@@ -42,8 +40,7 @@ python network_scanner.py
 
 Expected Output
 
-```
-sh
+```sh
 Getting WiFi Public IP...
 Your WiFi Public IP: 192.168.X.X
 
